@@ -9,7 +9,7 @@ Berikut adalah hasil eksekusi program yang menampilkan tiga karakter, demonstras
 
 ## Screenshot Output Terminal
 
-![Screenshot Output Terminal](./screenshots/output-terminal.png.png)
+![Screenshot Output Terminal](./screenshots/output-terminal.png)
 
 ## Struktur Folder Project
 
