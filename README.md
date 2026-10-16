@@ -5,9 +5,7 @@ Character Manager adalah program berbasis Java yang digunakan untuk mengelola ka
 
 ## Screenshot Output Terminal
 
-Screenshot Output Terminal
-
-!Screenshot Output Terminal
+!output-terminal.png
 
 ## Struktur Folder Project
 
