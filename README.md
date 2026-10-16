@@ -28,7 +28,6 @@ CharacterManager/
 **Nama lengkap**             : Tisa Kiranta Br Tarigan
 **NIM**                      : 253303621277
 **Link Google Docs Bagian D**: https://docs.google.com/document/d/1H1kSqVmylhUJ7km8Ja1zqyYtVCurgs787BVLEGl63nM/edit?usp=sharing
-
 ## Fitur Program
 -Empat konstanta enum untuk tipe karakter.
 -Dua constructor untuk membuat objek karakter.
