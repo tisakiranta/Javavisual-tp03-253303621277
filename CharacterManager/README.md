@@ -19,4 +19,4 @@ Screenshot output CRUD dan eksperimen reference akan ditambahkan setelah penguji
 
 Dokumentasi Bagian D
 
-Link Google Docs: [Tambahkan link Google Docs setelah dokumen dibuat]
+Link Google Docs:https://docs.google.com/document/d/1d1Vn8ArelyxVKwGujmrTHSKaJhGMk7xp4i-FObSx1ro/edit?usp=sharing
