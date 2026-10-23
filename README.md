@@ -1,11 +1,51 @@
+# Character Manager — TP3 (Java Visual SIH-6406)
+## Deskripsi
+
+Character Manager adalah program berbasis Java yang digunakan untuk mengelola karakter game menggunakan konsep Pemrograman Berorientasi Objek (OOP). Program ini memiliki fitur pembuatan karakter, pengaturan level, hit points (HP), tipe karakter menggunakan enum, serta peningkatan level (level up). Selain itu, program dilengkapi dengan atribut mana, validasi nilai mana agar tidak negatif, dan method isAlive() untuk memeriksa apakah karakter masih hidup berdasarkan nilai HP.
+
+## Screenshot Output Terminal
+
+![Screenshot Output Terminal](./screenshots/output-terminal.png)
+
+## Struktur Folder Project
+
+```
+CharacterManager/
+├── src/
+│   └── com/
+│       ├── Main.java
+│       └── unpri/
+│           └── charactermanager/
+│               └── model/
+│                   ├── Character.java
+│                   └── CharacterType.java
+├── screenshots/
+│   └── output-terminal.png
+└── README.md
+```
+
+## Identitas Mahasiswa
+**Nama lengkap**             : Tisa Kiranta Br Tarigan
+**NIM**                      : 253303621277
+**Link Google Docs Bagian D**: https://docs.google.com/document/d/1H1kSqVmylhUJ7km8Ja1zqyYtVCurgs787BVLEGl63nM/edit?usp=sharing
+## Fitur Program
+-Empat konstanta enum untuk tipe karakter.
+-Dua constructor untuk membuat objek karakter.
+-Getter dan setter untuk atribut karakter.
+-Method levelUp() untuk meningkatkan level karakter.
+-Atribut mana bertipe int.
+-Validasi mana negatif menggunakan IllegalArgumentException.
+-Method isAlive() untuk memeriksa apakah karakter masih hidup.
+-Method toString() untuk menampilkan informasi karakter, termasuk mana.
+
 ## AP6 — Character Manager
-1. Deskripsi Program
+# 1. Deskripsi Program
 
 Program Character Manager merupakan program berbasis Java yang digunakan untuk mengelola data karakter. Setiap karakter memiliki nama, level, dan tipe karakter. Program ini menerapkan konsep Object-Oriented Programming (OOP), enkapsulasi, serta penggunaan koleksi ArrayList.
 
 Program ini terdiri dari beberapa kelas, yaitu Character, CharacterManager, CharacterType, dan Main. Kelas Character menyimpan data karakter, sedangkan CharacterManager bertanggung jawab untuk mengelola kumpulan karakter.
 
-2. Bagian A — Implementasi Core
+# 2. Bagian A — Implementasi Core
 
 Bagian A berisi implementasi dasar untuk mengelola karakter.
 
@@ -21,7 +61,7 @@ hashCode(): menghasilkan nilai hash yang konsisten dengan aturan equals().
 
 Method equals() dan hashCode() digunakan agar karakter dengan nama yang sama, seperti Arjuna dan ARJUNA, dianggap sama untuk keperluan identitas karakter.
 
-3. Bagian B — Mini-Challenge
+# 3. Bagian B — Mini-Challenge
 
 Bagian B menambahkan dua fitur untuk mengolah data karakter.
 
@@ -37,15 +77,15 @@ Method findByType() mencari karakter berdasarkan tipe tertentu, misalnya WARRIOR
 
 Hasil pencarian disimpan dalam ArrayList baru sehingga method ini tidak mengembalikan daftar internal milik CharacterManager.
 
-4. Bagian C — Fitur Analitik Rancangan Sendiri
+# 4. Bagian C — Fitur Analitik Rancangan Sendiri
 
 Fitur analitik yang dibuat adalah findStrongest().
 
-Tujuan
+## Tujuan
 
 Method ini digunakan untuk mencari karakter dengan level tertinggi di dalam daftar karakter.
 
-Cara kerja
+# Cara kerja
 Program memeriksa apakah daftar karakter kosong.
 Jika kosong, method mengembalikan null.
 Jika tidak kosong, karakter pertama digunakan sebagai kandidat terkuat.
@@ -64,7 +104,7 @@ Method findStrongest() tidak mengembalikan ArrayList internal, tetapi hanya meng
 
 Method getAllCharacters() mengembalikan salinan daftar menggunakan new ArrayList<>(characters), sehingga perubahan pada struktur daftar hasil pemanggilan tidak mengubah daftar internal.
 
-5. Hasil Pengujian
+# 5. Hasil Pengujian
 
 Program diuji menggunakan perintah berikut pada terminal VS Code:
 
@@ -72,7 +112,7 @@ javac *.java
 java Main
 
 
-Hasil pengujian menunjukkan:
+# Hasil pengujian menunjukkan:
 
 Penambahan Arjuna berhasil.
 Penambahan Merlin berhasil.
@@ -86,7 +126,7 @@ Rata-rata level karakter menghasilkan 20.0.
 Pencarian karakter bertipe WARRIOR berhasil.
 Fitur findStrongest() menemukan Arjuna dengan level 20.
 findStrongest() mengembalikan null ketika daftar karakter kosong.
-6. Kesimpulan
+# 6. Kesimpulan
 
 Program Character Manager telah menerapkan konsep OOP, enkapsulasi, overriding method, dan penggunaan ArrayList. Fitur Bagian A digunakan untuk pengelolaan dasar karakter, Bagian B untuk penghitungan rata-rata dan pencarian berdasarkan tipe, sedangkan Bagian C digunakan untuk mencari karakter dengan level tertinggi.
 
@@ -95,7 +135,7 @@ BAGIAN D — Analisis Reference dan Rancangan Program Java
 
 Dokumen analisis Bagian D dapat diakses melalui tautan berikut:
 
-Link Google Docs: https://docs.google.com/document/d/1d1Vn8ArelyxVKwGujmrTHSKaJhGMk7xp4i-FObSx1ro/edit?usp=sharing
+# Link Google Docs: https://docs.google.com/document/d/1d1Vn8ArelyxVKwGujmrTHSKaJhGMk7xp4i-FObSx1ro/edit?usp=sharing
 Hak akses: Anyone with the link — Viewer
 
 Dokumen ini berisi analisis mengenai reference dan primitive value, penggunaan static, overriding equals() dan hashCode(), serta enkapsulasi pada program Character Manager.
@@ -120,11 +160,11 @@ Level Rama diubah dari 85 menjadi 65. Statistik rata-rata berubah dari 84.00 men
 ![Screenshot kedua MainWindow](screenshot-tp8-kedua.png)
 
 
-## Aliran Data dan Konsep MVC
+# Aliran Data dan Konsep MVC
 
 Aliran data dimulai dari `Main.java`, yang membuat lima objek `Character` dan menambahkannya ke `CharacterManager`. Kelas `CharacterManager` mengelola kumpulan objek tersebut menggunakan `ArrayList` dan menyediakan metode untuk menghitung rata-rata level. Selanjutnya, `MainWindow` menerima objek `CharacterManager`, mengambil data karakter, lalu menampilkannya melalui komponen `JLabel`. Dalam konsep MVC, `Character` merepresentasikan data Model, `MainWindow` bertindak sebagai View, dan `Main.java` mengatur inisialisasi aplikasi; `CharacterManager` membantu mengelola kumpulan data.
 
-## Karakter Baru
+# Karakter Baru
 
 | Nama | Tipe | Level | Alasan Pemilihan |
 |---|---|---:|---|
@@ -134,6 +174,6 @@ Aliran data dimulai dari `Main.java`, yang membuat lima objek `Character` dan me
 | Meylani | Penyihir | 80 | Menambah variasi peran melalui tipe penyihir. |
 | gama | Penyerang | 90 | Menjadi karakter penyerang kedua untuk variasi level. |
 
-## Analisis GUI dan MVC
+# Analisis GUI dan MVC
 
 Dokumen Google Docs: https://docs.google.com/document/d/1v2Zi0yl9s2j8avFf8x0IP74jFcj4JJM9QB9TH5dbBmo/edit?usp=sharing
