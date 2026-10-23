@@ -1,4 +1,4 @@
-AP6 — Character Manager
+## AP6 — Character Manager
 1. Deskripsi Program
 
 Program Character Manager merupakan program berbasis Java yang digunakan untuk mengelola data karakter. Setiap karakter memiliki nama, level, dan tipe karakter. Program ini menerapkan konsep Object-Oriented Programming (OOP), enkapsulasi, serta penggunaan koleksi ArrayList.
@@ -99,3 +99,41 @@ Link Google Docs: https://docs.google.com/document/d/1d1Vn8ArelyxVKwGujmrTHSKaJh
 Hak akses: Anyone with the link — Viewer
 
 Dokumen ini berisi analisis mengenai reference dan primitive value, penggunaan static, overriding equals() dan hashCode(), serta enkapsulasi pada program Character Manager.
+
+
+## Readme tp 8
+
+# Tugas Java Swing — TP8
+
+## Screenshot MainWindow
+
+### Screenshot 1 — Data Awal
+
+Menampilkan lima karakter dengan rata-rata level 84.00.
+
+![Screenshot pertama MainWindow](screenshot-tp8.png)
+
+### Screenshot 2 — Setelah Data Diubah
+
+Level Rama diubah dari 85 menjadi 65. Statistik rata-rata berubah dari 84.00 menjadi 80.00.
+
+![Screenshot kedua MainWindow](screenshot-tp8-kedua.png)
+
+
+## Aliran Data dan Konsep MVC
+
+Aliran data dimulai dari `Main.java`, yang membuat lima objek `Character` dan menambahkannya ke `CharacterManager`. Kelas `CharacterManager` mengelola kumpulan objek tersebut menggunakan `ArrayList` dan menyediakan metode untuk menghitung rata-rata level. Selanjutnya, `MainWindow` menerima objek `CharacterManager`, mengambil data karakter, lalu menampilkannya melalui komponen `JLabel`. Dalam konsep MVC, `Character` merepresentasikan data Model, `MainWindow` bertindak sebagai View, dan `Main.java` mengatur inisialisasi aplikasi; `CharacterManager` membantu mengelola kumpulan data.
+
+## Karakter Baru
+
+| Nama | Tipe | Level | Alasan Pemilihan |
+|---|---|---:|---|
+| Rama | Penyerang | 85 | Dipilih sebagai karakter penyerang dengan level tinggi. |
+| Anastasya | Pendukung | 70 | Berperan sebagai karakter pendukung dengan level lebih rendah. |
+| Markonah | Tank | 95 | Dipilih sebagai karakter bertahan dengan level tertinggi. |
+| Meylani | Penyihir | 80 | Menambah variasi peran melalui tipe penyihir. |
+| gama | Penyerang | 90 | Menjadi karakter penyerang kedua untuk variasi level. |
+
+## Analisis GUI dan MVC
+
+Dokumen Google Docs: https://docs.google.com/document/d/1v2Zi0yl9s2j8avFf8x0IP74jFcj4JJM9QB9TH5dbBmo/edit?usp=sharing
