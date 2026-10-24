@@ -179,15 +179,16 @@ Aliran data dimulai dari `Main.java`, yang membuat lima objek `Character` dan me
 Dokumen Google Docs: https://docs.google.com/document/d/1v2Zi0yl9s2j8avFf8x0IP74jFcj4JJM9QB9TH5dbBmo/edit?usp=sharing
 
 TP10 — Java Swing Styling & MVC
+
 ## TP10 — Implementasi Tema
 
 ### Screenshot Sebelum (v0.3)
 
-![Screenshot sebelum](screenshots/before-v03.png)
+![Screenshot sebelum TP10](screenshots/tp10-before.png)
 
 ### Screenshot Sesudah (v0.4)
 
-![Screenshot sesudah](screenshots/after-v04.png)
+![Screenshot sesudah TP10](screenshots/tp10-after.png)
 
 2. Alasan Warna Disimpan di AppTheme
 
