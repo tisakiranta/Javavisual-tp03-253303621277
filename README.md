@@ -1,12 +1,10 @@
-## TP10 — Implementasi Tema
+## TP10
 
 ### Screenshot Sebelum (v0.3)
-
-![Tampilan sebelum](screenshots/before-v03.png)
+![Screenshot v0.3](screenshots/before-v03.png)
 
 ### Screenshot Sesudah (v0.4)
-
-![Tampilan sesudah](screenshots/after-v04.png)
+![Screenshot v0.4](screenshots/after-v04.png)
 
 !Tampilan aplikasi sesudah implementasi tema
 
