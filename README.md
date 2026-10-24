@@ -185,7 +185,7 @@ TP10 — Java Swing Styling & MVC
 
 ### Screenshot Sebelum (v0.3)
 
-![Screenshot Sebelum v0.3](screenshots/before-v03.png)
+![Screenshot Sebelum v0.3](before-v03.png)
 
 ### Screenshot Sesudah (v0.4)
 
