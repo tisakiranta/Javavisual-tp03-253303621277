@@ -185,11 +185,11 @@ TP10 — Java Swing Styling & MVC
 
 ### Screenshot Sebelum (v0.3)
 
-![Screenshot Sebelum](screenshots/before-v03.png)
+![Screenshot Sebelum v0.3](screenshots/before-v03.png)
 
 ### Screenshot Sesudah (v0.4)
 
-![Screenshot Sesudah](after-v04.png)
+![Screenshot Sesudah v0.4](after-v04.png)
 
 # 2. Alasan Warna Disimpan di AppTheme
 
