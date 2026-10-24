@@ -180,6 +180,7 @@ Dokumen Google Docs: https://docs.google.com/document/d/1v2Zi0yl9s2j8avFf8x0IP74
 
 TP10 — Java Swing Styling & MVC
 
+
 ## TP10 — Implementasi Tema
 
 ### Screenshot Sebelum (v0.3)
@@ -189,7 +190,6 @@ TP10 — Java Swing Styling & MVC
 ### Screenshot Sesudah (v0.4)
 
 ![Screenshot Sesudah v0.4](after-v04.png)
-
 
 # 2. Alasan Warna Disimpan di AppTheme
 
